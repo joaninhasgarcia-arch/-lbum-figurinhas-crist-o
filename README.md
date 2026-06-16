@@ -39,8 +39,16 @@ As novas imagens principais usadas nas seções atualizadas foram incorporadas d
 ## Ajustes de oferta e planos
 
 - Removido certificado de conclusão de todas as áreas visíveis.
-- Removido bônus #3 da página.
+- Removido bônus #3 / vídeo de montagem do álbum.
 - Atualizado de “mais de 27 figurinhas” para “mais de 50 figurinhas”.
 - Criados dois planos na seção de oferta:
   - Plano Básico por R$ 14,90, com apenas 3 itens marcados.
   - Plano Completo por R$ 19,90, com destaque visual, preço antigo riscado e todos os bônus marcados.
+
+
+## Atualização de bônus
+
+- Adicionado o bônus **Versículos e Promessas para Colorir**.
+- No plano básico, esse bônus aparece com X vermelho.
+- No plano completo, esse bônus aparece com checklist positivo.
+- No plano básico, agora aparecem como inclusos: mais de 50 figurinhas bíblicas, páginas com espaços para colagem e arquivos prontos para impressão.
