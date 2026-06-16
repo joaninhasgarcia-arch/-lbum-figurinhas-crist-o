@@ -34,3 +34,13 @@ Projeto estático pronto para publicar no GitHub e conectar com a Vercel.
 ## Observação
 
 As novas imagens principais usadas nas seções atualizadas foram incorporadas diretamente no `index.html`, facilitando a publicação em um projeto estático simples.
+
+
+## Ajustes de oferta e planos
+
+- Removido certificado de conclusão de todas as áreas visíveis.
+- Removido bônus #3 da página.
+- Atualizado de “mais de 27 figurinhas” para “mais de 50 figurinhas”.
+- Criados dois planos na seção de oferta:
+  - Plano Básico por R$ 14,90, com apenas 3 itens marcados.
+  - Plano Completo por R$ 19,90, com destaque visual, preço antigo riscado e todos os bônus marcados.
