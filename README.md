@@ -1,46 +1,43 @@
-# Álbum Bíblico — A Seleção de Cristo
+# Valentes na Fé — atualização da página
 
-Página de vendas estática pronta para publicar no GitHub e conectar com a Vercel.
+Este pacote contém uma versão atualizada da landing page em **HTML** com as alterações pedidas:
 
-## O que foi atualizado
+## O que foi ajustado
 
-- A seção **Prévia interativa** foi atualizada com a nova prévia do álbum **Valentes na Fé**.
-- As 7 páginas enviadas foram colocadas na mesma ordem solicitada.
-- A prévia agora permite **folhear pelas setas** e também **arrastar para os lados** para simular a virada de página.
-- As imagens da prévia estão **incorporadas dentro do próprio `index.html`**, então você continua podendo subir somente `index.html` e `README.md` para o GitHub.
+1. **Imagem principal fixa**
+   - A primeira imagem da página não troca mais automaticamente.
+   - Foi usada a imagem do álbum sobre a mesa com figurinhas ao redor.
 
-## Arquivos do projeto
+2. **Prévia interativa organizada**
+   - A primeira imagem da prévia foi trocada pela versão em **9:16**.
+   - As setas de navegação ficam **abaixo** da imagem.
+   - O contador de páginas fica entre as setas: **Página X de 7**.
 
-- `index.html` — página principal com HTML, CSS e JavaScript em um único arquivo.
-- `README.md` — instruções de uso e publicação.
+3. **Figurinhas em grade**
+   - As figurinhas foram organizadas em **2 colunas**, com melhor encaixe visual.
+   - Os recortes foram feitos para evitar a aparência de borda branca lateral.
 
-## Como publicar no GitHub
+4. **Área de membros**
+   - A imagem antiga foi trocada pela nova imagem da mão segurando o celular com o material do álbum.
 
-1. Crie um repositório novo no GitHub.
-2. Envie os arquivos `index.html` e `README.md` para a raiz do repositório.
-3. Faça o commit das alterações.
+5. **Seção “O que você recebe”**
+   - A imagem antiga foi substituída pela nova composição com os materiais do **Valentes na Fé**.
 
-## Como conectar na Vercel
+6. **Textos da página**
+   - O conteúdo textual foi reescrito para evitar referências a futebol.
 
-1. Acesse sua conta na Vercel.
-2. Clique em **Add New Project**.
-3. Importe o repositório do GitHub.
-4. Em framework, deixe como **Other** ou **Static HTML**.
-5. Não é necessário configurar build command.
-6. Publique o projeto.
+## Estrutura do pacote
 
-## Observações importantes
+- `index.html` — página principal.
+- `README.md` — este arquivo.
+- `assets/` — imagens utilizadas pela página.
 
-- A página ainda usa algumas imagens externas que já existiam no seu HTML original.
-- A nova prévia do álbum **Valentes na Fé** foi embutida diretamente no `index.html`.
-- O botão de compra aponta para o checkout:
-  `https://checkout.pague-cerebroemjogo.shop/VCCL1O8SD1RR`
-- Caso queira trocar o link de pagamento, procure por esse endereço dentro do `index.html` e substitua pelo novo link.
+## Como usar
 
-## Estrutura recomendada no GitHub
+1. Extraia o arquivo ZIP.
+2. Abra o arquivo `index.html` no navegador.
+3. Se quiser publicar, envie todo o conteúdo da pasta para sua hospedagem.
 
-```text
-album-biblico/
-├── index.html
-└── README.md
-```
+## Observação
+
+Se você quiser, depois dá para trocar as imagens da pasta `assets/preview/` por outras páginas mantendo a mesma estrutura do carrossel.
