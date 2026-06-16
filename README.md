@@ -2,6 +2,13 @@
 
 Página de vendas estática pronta para publicar no GitHub e conectar com a Vercel.
 
+## O que foi atualizado
+
+- A seção **Prévia interativa** foi atualizada com a nova prévia do álbum **Valentes na Fé**.
+- As 7 páginas enviadas foram colocadas na mesma ordem solicitada.
+- A prévia agora permite **folhear pelas setas** e também **arrastar para os lados** para simular a virada de página.
+- As imagens da prévia estão **incorporadas dentro do próprio `index.html`**, então você continua podendo subir somente `index.html` e `README.md` para o GitHub.
+
 ## Arquivos do projeto
 
 - `index.html` — página principal com HTML, CSS e JavaScript em um único arquivo.
@@ -24,11 +31,11 @@ Página de vendas estática pronta para publicar no GitHub e conectar com a Verc
 
 ## Observações importantes
 
-- A página usa imagens hospedadas externamente nos links que já estavam no seu HTML original.
+- A página ainda usa algumas imagens externas que já existiam no seu HTML original.
+- A nova prévia do álbum **Valentes na Fé** foi embutida diretamente no `index.html`.
 - O botão de compra aponta para o checkout:
   `https://checkout.pague-cerebroemjogo.shop/VCCL1O8SD1RR`
 - Caso queira trocar o link de pagamento, procure por esse endereço dentro do `index.html` e substitua pelo novo link.
-- Caso queira trocar alguma imagem, substitua a URL da imagem diretamente no `index.html`.
 
 ## Estrutura recomendada no GitHub
 
@@ -37,4 +44,3 @@ album-biblico/
 ├── index.html
 └── README.md
 ```
-
